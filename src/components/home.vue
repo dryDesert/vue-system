@@ -21,7 +21,7 @@
 </script>
 <style >
     .content {
-        background: none repeat scroll 0 0 #fff;
+        background: none repeat scroll 0 0 #f1f3fa;
         position: absolute;
         left: 250px;
         right: 0;

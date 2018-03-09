@@ -1,14 +1,14 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-// import HelloWorld from '@/components/HelloWorld'
-// import Login from '@/components/login'
 import Home from '@/components/home'
-// import Readme from '@/components/content/Readme'
-import baseform from '@/components/content/BaseForm'
-
-
 import hygl from '@/components/content/hygl'
-
+import gqcs from '@/components/content/gqcs'
+import xsb from '@/components/content/xsb'
+import wgp from '@/components/content/wgp'
+import hyfl from '@/components/content/hyfl'
+import gzsj from '@/components/content/gzsj'
+import cssz from '@/components/content/cssz'
+import sjdr from '@/components/content/sjdr'
 
 Vue.use(Router)
 
@@ -29,31 +29,38 @@ export default new Router({
               path: '/',
               component: hygl
           },
-           {
+          {
               path: '/hygl',
               component: hygl
           },
           {
-              path: '/baseform',
-              // component: resolve => require(['../components/content/BaseForm'], resolve)
-              component: baseform,
+              path: '/gqcs',
+              component: gqcs
           },
-          // {
-          //     path: '/basecharts',
-          //     component: resolve => require(['../components/content/baseCharts'], resolve)
-          // },
-          // {
-          //     path: '/basetable',
-          //     component: resolve => require(['../components/content/baseTable'], resolve)
-          // },
           {
-              path: '/draglist',
-              component: resolve => require(['../components/content/DragList'], resolve)
+              path: '/xsb',
+              component: xsb
           },
-          // {
-          //     path: '/markdown',
-          //     component: resolve => require(['../components/content/Markdown'], resolve)
-          // }
+          {
+              path: '/wgp',
+              component: wgp
+          },
+          {
+              path: '/hyfl',
+              component: hyfl
+          },
+          {
+              path: '/gzsj',
+              component: gzsj
+          },
+          {
+              path: '/cssz',
+              component: cssz
+          },
+          {
+              path: '/sjdr',
+              component: sjdr
+          },
       ]
     }
   ]

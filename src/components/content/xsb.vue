@@ -5,48 +5,14 @@
 				<p>审核任务</p>
 			</div>
 			<div class="box-content">
-				<el-tabs v-model="activeName" @tab-click="handleClick">
-				    <el-tab-pane label="融资方案审核" name="first">
-						<el-table :data="tableData" style="width: 100%">
-						    <el-table-column prop="id" label=""></el-table-column>
-						    <el-table-column prop="name" label=""></el-table-column>
-						    <el-table-column prop="money" label=""></el-table-column>
-						    <el-table-column prop="type" label=""></el-table-column>
-						    <el-table-column prop="date" label=""></el-table-column>
-						    <el-table-column prop="do" label=""></el-table-column>
-						</el-table>
-				    </el-tab-pane>
-				    <el-tab-pane label="授信审核" name="second">
-				    	<el-table :data="tableData" style="width: 100%">
-						    <el-table-column prop="id" label=""></el-table-column>
-						    <el-table-column prop="name" label=""></el-table-column>
-						    <el-table-column prop="money" label=""></el-table-column>
-						    <el-table-column prop="type" label=""></el-table-column>
-						    <el-table-column prop="date" label=""></el-table-column>
-						    <el-table-column prop="do" label=""></el-table-column>
-						</el-table>
-				    </el-tab-pane>
-				    <el-tab-pane label="放款初审" name="third">
-				    	<el-table :data="tableData" style="width: 100%">
-						    <el-table-column prop="id" label=""></el-table-column>
-						    <el-table-column prop="name" label=""></el-table-column>
-						    <el-table-column prop="money" label=""></el-table-column>
-						    <el-table-column prop="type" label=""></el-table-column>
-						    <el-table-column prop="date" label=""></el-table-column>
-						    <el-table-column prop="do" label=""></el-table-column>
-						</el-table>
-				    </el-tab-pane>
-				    <el-tab-pane label="出账审核" name="fourth">
-				    	<el-table :data="tableData" style="width: 100%">
-						    <el-table-column prop="id" label=""></el-table-column>
-						    <el-table-column prop="name" label=""></el-table-column>
-						    <el-table-column prop="money" label=""></el-table-column>
-						    <el-table-column prop="type" label=""></el-table-column>
-						    <el-table-column prop="date" label=""></el-table-column>
-						    <el-table-column prop="do" label=""></el-table-column>
-						</el-table>
-				    </el-tab-pane>
-				</el-tabs>
+				<el-table :data="tableData" style="width: 100%">
+				    <el-table-column prop="id" label=""></el-table-column>
+				    <el-table-column prop="name" label=""></el-table-column>
+				    <el-table-column prop="money" label=""></el-table-column>
+				    <el-table-column prop="type" label=""></el-table-column>
+				    <el-table-column prop="date" label=""></el-table-column>
+				    <el-table-column prop="do" label=""></el-table-column>
+				</el-table>
 			</div>
 		</div>
 	</div>
